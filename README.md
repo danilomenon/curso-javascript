@@ -1,6 +1,6 @@
 # Curso em Vídeo - JavaScript
 
-**Baseado nos ensinamentos de Gustavo Guanabara, este repositório contém exercícios e projetos desenvolvidos durante o curso de JavaScript do Curso em Vídeo.**
+**Esse material foi baseado nos ensinamentos do Professor Gustavo Guanabara, este repositório contém exercícios e projetos desenvolvidos durante o curso de JavaScript do Curso em Vídeo.**
 
 **Links:**
 
