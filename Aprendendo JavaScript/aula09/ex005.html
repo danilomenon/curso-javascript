@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos ao DOM</title>
+    <style>
+        body {
+            background: rgb(0, 53, 133);
+            color: rgb(74, 216, 61);
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+
+        /*d.style.background = 'green'
+        d.innerText = 'Estou Aguardando...'
+        //window.document.getElementById('msg').innerText = 'Olá, estou aguardando...'*/
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
+    </script>
+    <!--<script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        /*var d = window.document.getElementById('msg')
+        d.style.background = 'lightgreen'*/
+        //d.innerText = 'Estou aguardando...'
+        
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'green'
+        /*window.document.write('Está escrito assim: ' + p1.innerText)
+        corpo.style.background = 'black'
+        p1.style.color = '#ff22ff'*/
+    </script>-->
+</body>
+</html>
