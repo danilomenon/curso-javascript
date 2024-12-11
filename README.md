@@ -4,8 +4,8 @@
 
 **Links:**
 
-* **Curso em Vídeo:** [https://www.cursoemvideo.com/curso/javascript/]
-* **Gustavo Guanabara:** [https://github.com/gustavoguanabra/curso-javascript]
+* **Curso em Vídeo:** [CursoEmVideo](https://www.cursoemvideo.com/curso/javascript/)
+* **Gustavo Guanabara:** [Prof° Gustavo Guanabara](https://github.com/gustavoguanabra/curso-javascript)
 
 **Tecnologias:**
 
