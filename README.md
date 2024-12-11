@@ -11,7 +11,6 @@
 
 * JavaScript
 * Node.js
-* npm
 
 **Como usar:**
 
