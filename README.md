@@ -1,6 +1,7 @@
 # Curso em Vídeo - JavaScript
 
 **Esse material foi baseado nos ensinamentos do Professor Gustavo Guanabara, este repositório contém exercícios e projetos desenvolvidos durante o curso de JavaScript do Curso em Vídeo.**
+[Material JavaScript](https://github.com/danilomenon/curso-javascript)
 
 **Links:**
 
