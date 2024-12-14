@@ -1,30 +1,34 @@
-Inicio (Precisa de inicio)
+<!--Inicio (Precisa de inicio)
 Fim (Precisa de Fim)
 Passo (Passo nao pode ser 0. Considerado passo 1)
 contar (botao)
-Contador
+Contador-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Super contador</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos contar?</h1>
     </header>
     <section>
         <div>
-            Testando...
+            Início: <input type="number" name="inicio" id="inicio">
+            Fim: <input type="number" name="fim" id="fim">
+            Passo: <input type="number" name="passo" id="passo">
         </div>
-        <div>
-            Olá, mundo!
+
+        <button onclick="contar()">Contar</button>
+        <div id="res">
+            Número de passos...
         </div>
     </section>
     <footer>
-        <p>&copy; Giovanni Menon</p>
+        <p>&copy; Danilo Menon</p>
     </footer>
     <script src="script.js"></script>
 </body>

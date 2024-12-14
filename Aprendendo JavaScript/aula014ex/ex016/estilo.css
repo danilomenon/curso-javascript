@@ -8,6 +8,10 @@ header {
     text-align: center;
 }
 
+input {
+    display: flex;
+}
+
 section {
     background: white;
     border-radius: 10px;

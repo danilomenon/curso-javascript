@@ -1,12 +1,12 @@
-function tabuada() {
-    var tab = 1
-    var c = 0
+function myTable() {
+    var c = 1
+    var tab = 2
 
-    while(c <= 10) {
-        var result = tab * c
-        console.log(`${tab} x ${c} = ${result}`)
+    while (c <= 10) {
+        var res = c * tab
+        console.log(`${tab} x ${c} = ${res}`);
         c++
     }
 }
 
-tabuada()
+myTable()
