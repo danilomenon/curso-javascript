@@ -3,7 +3,9 @@ function contar() {
 
     var n2 = document.getElementById('txtn2').value
 
-    var p = document.getElementById('passo')
+    var p = document.getElementById('passo').value
 
+    var res = document.getElementById('res')
 
+    res.innerHTML = `${n1}, ${n2} e ${p}`
 }
