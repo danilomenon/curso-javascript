@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Conversor de temperaturas</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Conversor de temperaturas</h1>
+	<button onclick="btn()">Converter</button>
+	<br>
+	<div id="res">
+		<p>Clique no botão acima para iniciar.</p>
+	</div>
+
+	<script>
+		function btn() {
+			let c = parseFloat(prompt('Digite uma temparatura em °C (Celcius)'))
+
+			if (isNaN(c)) {
+				alert("Por favor, insira um valor numérico válido.");
+				return;
+			}
+			let temF = (c * 9 / 5) + 32
+			let temK = c + 273.15
+
+			res.innerHTML = `<h2>A temperatura ${c.toFixed(2).replace(".", ",")} corresponde a...</h2> <br> ${temK.toFixed(2).replace(".", ",")} °K (Kelvin) <br>${temF.toFixed(2).replace(".", ",")} °F (Fahrenheit)`
+		}
+	</script>
+</body>
+
+</html>

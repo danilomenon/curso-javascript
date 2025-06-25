@@ -41,6 +41,11 @@
     <script>
         function btn() {
             let medida = parseFloat(prompt('Digite uma distância em metros (m)'))
+            
+            if (isNaN(medida) || medida < 0) {
+            alert("Por favor, insira um valor numérico válido e maior que 0.");
+            return;
+        }
 
             let km = medida / 1000
             let Hm = medida / 100
