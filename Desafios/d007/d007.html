@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor R$ -> US$</title>
+</head>
+<body>
+    <h1>Conversor R$ → US$</h1>
+    <button onclick="btn()">Converter</button>
+    <p>Clique no botão para interagir.</p>
+    <div id="res"></div>
+    <script>
+		function btn() {
+            let real = parseFloat(prompt(`Quantos R$ você tem na carteira?`))
+			let dol = parseFloat(prompt('Quantos está a cotação do dólar agora?'))
+
+			if (isNaN(real)) {
+				alert("Por favor, insira um valor numérico válido.");
+				return;
+			}
+			let m = dol * real
+
+			res.innerHTML = `Saldo R$ ${real.toFixed(2).replace('.', ',')}. Cotação do dólar US$ ${dol.toFixed(2).replace('.', ',')}. Conversao US$: ${m.toFixed(2).replace('.', ',')}`
+		}
+	</script>
+</body>
+</html>
